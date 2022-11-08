@@ -1,0 +1,24 @@
+{
+    "collab_server" : "",
+    "contents" : "",
+    "created" : 1667210614767.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "158726600",
+    "id" : "24559538",
+    "lastKnownWriteTime" : 1667215639,
+    "last_content_update" : 1667215639804,
+    "path" : "~/Rcodes/Learning/PCA with R.Rmd",
+    "project_path" : "PCA with R.Rmd",
+    "properties" : {
+        "chunk_output_type" : "inline",
+        "cursorPosition" : "40,0",
+        "scrollLine" : "33",
+        "tempName" : "Untitled3"
+    },
+    "relative_order" : 4,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_markdown"
+}

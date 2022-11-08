@@ -1,0 +1,23 @@
+{
+    "collab_server" : "",
+    "contents" : "",
+    "created" : 1666705198303.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "1940290190",
+    "id" : "A26C95FC",
+    "lastKnownWriteTime" : 1666803014,
+    "last_content_update" : 1666803014471,
+    "path" : "~/R codes/Gomycode Class/Data_Preprocessing.R",
+    "project_path" : "Data_Preprocessing.R",
+    "properties" : {
+        "cursorPosition" : "68,0",
+        "scrollLine" : "46",
+        "tempName" : "Untitled2"
+    },
+    "relative_order" : 2,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_source"
+}

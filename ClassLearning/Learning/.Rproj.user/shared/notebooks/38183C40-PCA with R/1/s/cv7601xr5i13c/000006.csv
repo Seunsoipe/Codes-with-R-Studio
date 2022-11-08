@@ -1,0 +1,4 @@
+"0","#Ploting and Visualizing"
+"0","library(ggfortify)"
+"2","Error in library(ggfortify) : there is no package called ‘ggfortify’
+"

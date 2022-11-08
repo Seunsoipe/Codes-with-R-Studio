@@ -1,0 +1,21 @@
+"0","linearMod <- lm(y ~ x)"
+"0","print(linearMod)"
+"1","
+Call:
+"
+"1","lm(formula = y ~ x)"
+"1","
+
+"
+"1","Coefficients:
+"
+"1","(Intercept)  "
+"1","          x  "
+"1","
+"
+"1","      136.8  "
+"1","       16.9  "
+"1","
+"
+"1","
+"

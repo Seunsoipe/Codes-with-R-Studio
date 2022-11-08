@@ -1,0 +1,2 @@
+"0","data <- read.csv(""USA_cars_datasets.csv"")"
+"0","head(data)"

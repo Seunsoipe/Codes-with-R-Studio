@@ -1,0 +1,14 @@
+data <- read.csv("iris.csv")
+head(data)
+
+iris_standardize <- as.data.frame(scale(data[1:4]))
+head(iris_standardize)
+
+iris.mat <- as.matrix(iris_standardize)
+cov.mat <- cor(iris_standardize)
+print(cov.mat)
+
+pca <- prcomp(iris_standardize,center = T,scale. = T)
+summary(pca)
+
+library(ggfortify)

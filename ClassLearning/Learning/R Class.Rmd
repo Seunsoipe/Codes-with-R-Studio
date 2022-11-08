@@ -1,0 +1,121 @@
+---
+title: "R Notebook"
+output: html_notebook
+---
+
+This is an [R Markdown](http://rmarkdown.rstudio.com) Notebook. When you execute code within the notebook, the results appear beneath the code. 
+
+Try executing this chunk by clicking the *Run* button within the chunk or by placing your cursor inside it and pressing *Ctrl+Shift+Enter*. 
+
+```{r}
+plot(cars)
+```
+
+Add a new chunk by clicking the *Insert Chunk* button on the toolbar or by pressing *Ctrl+Alt+I*.
+
+When you save the notebook, an HTML file containing the code and output will be saved alongside it (click the *Preview* button or press *Ctrl+Shift+K* to preview the HTML file).
+
+The preview shows you a rendered HTML copy of the contents of the editor. Consequently, unlike *Knit*, *Preview* does not run any R code chunks. Instead, the output of the chunk when it was last run in the editor is displayed.
+```{r}
+plot(1:10)
+```
+
+```{r}
+for (x in 1:10) {
+  print(x)
+}
+```
+
+```{r}
+text <- "awesome"
+
+paste("R is", text)
+
+text1 <- "R is"
+text2 <- "awesome"
+
+paste(text1, text2)
+
+# Assign the same value to multiple variables in one line
+var1 <- var2 <- var3 <- "Orange"
+
+# Print variable values
+var1
+var2
+var3
+
+# Legal variable names:
+myvar <- "John"
+my_var <- "John"
+myVar <- "John"
+MYVAR <- "John"
+myvar2 <- "John"
+.myvar <- "John"
+
+# Illegal variable names:
+2myvar <- "John"
+my-var <- "John"
+my var <- "John"
+_my_var <- "John"
+my_v@ar <- "John"
+TRUE <- "John"
+
+
+```
+
+```{r}
+str <- "Lorem ipsum dolor sit amet,
+consectetur adipiscing elit,
+sed do eiusmod tempor incididunt
+ut labore et dolore magna aliqua."
+
+str # print the value of str
+
+
+str <- "Lorem ipsum dolor sit amet,
+consectetur adipiscing elit,
+sed do eiusmod tempor incididunt
+ut labore et dolore magna aliqua."
+
+cat(str)
+
+a <- 200
+b <- 33
+
+if (b > a) {
+  print ("b is greater than a")
+} else {
+  print("b is not greater than a")
+}
+
+x <- 41
+if (x > 40){
+  print("Above ten")
+  if (x >20){
+    print("and also above 20!")
+  } else {
+    print("but not above 20.")
+  }
+} else {
+  print("below 10.")
+}
+```
+
+```{r}
+a <- 200
+b <- 33
+c <- 500
+
+if (a > b & c > a) {
+  print("Both conditions are true")
+}
+
+if (a > b | a > c) {
+  print("At least one of the conditions is true")
+}
+i <- 1
+while (i < 8) {
+  print(i)
+  i <- i + 1
+}
+

@@ -1,0 +1,24 @@
+{
+    "collab_server" : "",
+    "contents" : "",
+    "created" : 1666612830881.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "1381511642",
+    "id" : "E0251EE1",
+    "lastKnownWriteTime" : 1667215703,
+    "last_content_update" : 1667215703125,
+    "path" : "~/Rcodes/Learning/R Class.Rmd",
+    "project_path" : "R Class.Rmd",
+    "properties" : {
+        "chunk_output_type" : "inline",
+        "cursorPosition" : "106,8",
+        "scrollLine" : "87",
+        "tempName" : "Untitled1"
+    },
+    "relative_order" : 1,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_markdown"
+}

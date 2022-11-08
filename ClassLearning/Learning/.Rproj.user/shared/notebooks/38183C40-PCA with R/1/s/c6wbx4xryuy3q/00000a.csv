@@ -1,0 +1,2 @@
+"0","iris_standardize <- as.data.frame(scale(data[1:4]))"
+"0","head(iris_standardize)"

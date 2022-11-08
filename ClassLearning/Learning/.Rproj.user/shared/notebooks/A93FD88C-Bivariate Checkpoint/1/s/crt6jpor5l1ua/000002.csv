@@ -1,0 +1,7 @@
+"0","x <- data$number_project"
+"0","y <- data$average_montly_hours"
+"0","print(class(x))"
+"1","[1]"
+"1"," ""integer"""
+"1","
+"
